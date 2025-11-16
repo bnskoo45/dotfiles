@@ -17,3 +17,7 @@ bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
+
+# don't rename windows automatically (apparently it renames based on last command used)
+set-option -g allow-rename off
+
